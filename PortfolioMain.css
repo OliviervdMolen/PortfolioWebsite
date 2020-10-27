@@ -1,0 +1,529 @@
+.html {
+	width: 100%;
+	display: inline-block;
+	height: 2500px;
+	background-image: url("recources/MainBackground.gif");
+	background-attachment: fixed;
+    overflow-x: hidden;
+    scroll-behaviour: smooth;
+
+}
+
+
+
+.headerMain {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: #1D1E28;
+    #background-image: url("recources/headerBG.jpg");
+    background-size: 100%;
+    display: inline-block;
+    color: #ede8e8;
+
+
+}
+
+.headerLogo {
+    margin: 5px;
+    width: 80px;
+
+}
+
+.headerTitle {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+    text-decoration: underline;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 60;
+    letter-spacing: 4px;
+
+}
+.headerSubtitle {
+    position: absolute;
+    left: 120px;
+    top: 75px;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 25;
+    letter-spacing: 4px;
+
+}
+
+.headerButtonPages {
+    position: fixed;
+    font-family: 'Bebas Neue';
+    margin: 0;
+    padding: 0;
+    top: 100px;
+    left: 300px;
+
+}
+
+
+
+.headerButtonHome {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+
+
+
+
+.headerButtonIntro {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+.headerButtonRes {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+.headerButtonProjects {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+.headerButtonLearn {
+    display: none;
+
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+.headerButtonContact {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+
+.headerButtonLogin {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-radius: 6px;
+    height: 50px;
+    font-family: 'bebas neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    display: block;
+    position: absolute;
+    margin-left: 132%;
+    margin-top: -120px;
+
+}
+
+.headerButtonHome:hover, .headerButtonLogin:hover, .headerButtonIntro:hover, .headerButtonRes:hover, .headerButtonProjects:hover, .headerButtonLearn:hover, .headerButtonContact:hover {
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(10, 10, 10, 0.2);
+
+
+}
+
+.headerButtonActive {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #e6331c;
+    border-width: 5px;
+
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0px -6px 0px 0px #e6331c;
+
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+
+
+}
+.mainDisplayName {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.displayNameText {
+    font-family: 'Bebas Neue';
+    font-size: 70;
+    color: white;
+    position: relative;
+    top: 300px;
+    text-align: center;
+
+}
+.divider {
+    position: absolute;
+    background-color: white;
+    left: 25%;
+    right: 25%;
+    height: 10px;
+    top: 450px;
+    border-radius: 5px;
+}
+.displayNameText2 {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    color: white;
+    position: relative;
+    top: 300px;
+    text-align: center;
+
+}
+#scrollButton2 {
+}
+
+.mainScrollBody {
+    position: absolute;
+    top: 800px;
+    left: 0;
+    right: 0;
+    background-color: #ede8e8;
+    height: 1800px;
+}
+
+#aboutMe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background-color: #d6d0d0;
+
+}
+
+.aboutMeImage {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    height: 350px;
+    width: 256px;
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 4px;
+    border-color: #0092d2;
+
+
+}
+
+.aboutMeTitle {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 340px;
+    font-family: 'Bebas Neue';
+    font-size: 40;
+
+}
+
+.aboutMeText {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    left: 340px;
+    width: 1000px;
+}
+.aboutMeText2 {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 340px;
+    width: 1000px;
+}
+.aboutMeText3 {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    left: 340px;
+    width: 1500px;
+}
+.aboutMeText4 {
+    font-family: 'Bebas Neue';
+    font-size: 40;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 340px;
+    width: 1500px;
+}
+.aboutMeText5 {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 290px;
+    left: 340px;
+    width: 1500px;
+}
+.aboutMeText6 {
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    letter-spacing: 1px;
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    left: 340px;
+    width: 1500px;
+}
+.aboutMeReadMore {
+    width: 200px;
+    color: #e6331c;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    position: absolute;
+    top: 370px;
+    left: 340px;
+    transition-duration: 0.2s;
+}
+.aboutMeReadMore:hover {background-color: rgba(0, 0, 0, 0.2); color: #bd2b19}
+
+.mainPageCV {
+    position: relative;
+    top: 550px;
+    width: 100%;
+    height: 550px;
+    background-image: url('recources/contactWallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(200, 200, 200, 1);
+}
+
+.cvDownloads {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    left: 50px;
+    top: 50px;
+
+}
+
+
+.downloadCVWord {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0092d2;
+    color: #e6331c;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+
+}
+.downloadCVWord:hover {background-color: rgba(0, 0, 0, 0.2); color: #bd2b19}
+
+.downloadCVPDF {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0092d2;
+    color: #e6331c;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+
+}
+.downloadCVPDF:hover {background-color: rgba(0, 0, 0, 0.2); color: #bd2b19;}
+.cvText {
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    left: 300px;
+    width: 100%;
+    height: 90%;
+}
+.readfull {
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0092d2;
+    color: #e6331c;
+    font-family: 'bebas neue';
+    font-size: 30;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.readfull:hover {background-color: rgba(0, 0, 0, 0.2); color: #bd2b19;}
+
+.mainPageProjects {
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: inline-block;
+    top: 550px;
+
+
+}
+.projectsHolder {
+    display: block;
+    align-content: center;
+    width: 100%;
+    margin-left: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.Project {
+    display: inline-block;
+    position: flex;
+    width: 320px;
+    height: 380px;
+    top: -350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    text-align: center;
+}
+
+.projectTitle {
+    font-family: 'bebas neue';
+    font-size: 200%;
+    color: white;
+    display: relative;
+    margin: 0;
+    text-shadow: 3px 3px #e6331c;
+
+}
+
+.projectDesc {
+    font-family: 'bebas neue';
+    font-size: 130%;
+    margin: 5%;
+    margin-top: 50px;
+    color: white;
+    text-shadow: 3px 3px #e6331c;
+}
+
+.Project:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+.footerMenu {
+    width: 100%;
+    height: 250px;
+    background-color: #1D1E28;
+    position: relative;
+    top: 550px;
+    color: #ede8e8;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}

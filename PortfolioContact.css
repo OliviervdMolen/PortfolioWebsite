@@ -1,0 +1,268 @@
+.html {
+	width: 100%;
+	display: inline-block;
+	height: 1000px;
+	background-image: url("recources/MainBackground.gif");
+	background-attachment: fixed;
+    overflow-x: hidden;
+    scroll-behaviour: smooth;
+}
+.headerMain {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: #1D1E28;
+    #background-image: url("recources/headerBG.jpg");
+    background-size: 100%;
+    display: inline-block;
+    color: #ede8e8;
+}
+.headerLogo {
+    margin: 5px;
+    width: 80px;
+
+}
+.headerTitle {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+    text-decoration: underline;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 60;
+    letter-spacing: 4px;
+}
+.headerSubtitle {
+    position: absolute;
+    left: 120px;
+    top: 75px;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 25;
+    letter-spacing: 4px;
+}
+.headerButtonPages {
+    position: fixed;
+    font-family: 'Bebas Neue';
+    margin: 0;
+    padding: 0;
+    top: 100px;
+    left: 300px;
+}
+.headerButtonHome {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+
+
+
+
+.headerButtonIntro {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+.headerButtonRes {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: static;
+
+}
+.headerButtonProjects {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+.headerButtonLearn {
+    display: none;
+
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+.headerButtonContact {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    position: sticky;
+}
+
+.headerButtonLogin {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #0092d2;
+    border-width: 5px;
+    border-radius: 6px;
+    height: 50px;
+    font-family: 'bebas neue';
+    font-size: 30;
+    transition-duration: 0.3s;
+    display: block;
+    position: absolute;
+    margin-left: 132%;
+    margin-top: -120px;
+
+}
+
+.headerButtonHome:hover, .headerButtonLogin:hover, .headerButtonIntro:hover, .headerButtonRes:hover, .headerButtonProjects:hover, .headerButtonLearn:hover, .headerButtonContact:hover {
+    border-bottom-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(10, 10, 10, 0.2);
+
+
+}
+.headerButtonActive {
+    width: 200px;
+    color: #ede8e8;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-color: #e6331c;
+    border-width: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 0px -6px 0px 0px #e6331c;
+    font-family: 'Bebas Neue';
+    font-size: 30;
+    transition-duration: 1s;
+}
+.mainScrollBody {
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    width: 100%;
+    background-image: url('recources/contactWallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 860px;
+    color: #ede8e8;
+}
+.contactHeader {
+    font-family: 'bebas neue';
+    text-align: center;
+
+}
+.headerDivider {
+    height: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #0092d2;
+    border-radius: 5px;
+
+}
+.contactLeft {
+    font-family: 'bebas neue';
+    margin-left: 50px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 100px;
+
+}
+.contactLeftText {
+    font-size: 250%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 1;
+
+}
+.contactIcon {
+    width: 30px;
+    display: inline-block;
+
+}
+.contactCenter {
+    font-family: 'bebas neue';
+    display: inline-block;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: -200px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #e6331c;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 2px;
+
+}
+.contactRight {
+    width: 600px;
+    float: right;
+    font-family: 'bebas neue';
+    margin-top: 100px;
+}
+
+.footerMenu {
+    width: 100%;
+    height: 250px;
+    background-color: #1D1E28;
+    position: absolute;
+    top: 860px;
+    color: #ede8e8;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
